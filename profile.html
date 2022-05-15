@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profilo personale</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="SCSS/style.min.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="nav-left">
+               <a href="index.html"><img src="images/logo2.png" class="logo" alt="c' è un problema nella visualizzazione dell' immagine"></a>
+
+               <ul>
+                   <li><img src="images/notification.png" alt="c' è un problema nella visualizzazione dell' immagine"></li>
+                   <li> <img src="images/inbox.png" alt="c' è un problema nella visualizzazione dell' immagine"></li>
+                   <li><img src="images/video.png" alt="c' è un problema nella visualizzazione dell' immagine"></li>
+               </ul>
+           </div><!--fine div nav-left -->
+
+
+           <div class="nav-right">
+
+              <div class="search-box">
+                  <img src="images/search.png" alt="c' è un problema nella visualizzazione dell' immagine">
+                  <input type="text" placeholder="Cerca">
+              </div><!--fine div search-box -->
+
+              <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                 <img src="images/profile-pic.png" alt="c' è un problema nella visualizzazione dell' immagine">
+              </div><!--fine div nav-user-icon online-->
+
+           </div><!--fine div nav-right -->
+
+
+           <div class="settings-menu">
+
+               <div id="dark-btn">
+                  <span></span>
+               </div><!--fine div dark-btn -->
+
+               <div class="settings-menu-inner">
+
+                   <div class="user-profile">
+                       <img src="images/profile-pic.png" alt="c' è un problema nella visualizzazione dell' immagine">
+        
+                       <div>
+                          <p>Jack Nicholson</p>
+                          <a href="#">Visualizza il tuo profilo</a>
+                       </div>
+                    </div><!--fine div user-profile --> 
+   
+                    <hr>
+
+                    <div class="user-profile">
+                       <img src="images/feedback.png" alt="c' è un problema nella visualizzazione dell' immagine">
+        
+                       <div>
+                          <p>Dai un feedback</p>
+                          <a href="#">Aiutaci a migliorare l' accessibilità del nuovo design</a>
+                       </div>
+                    </div><!--fine div user-profile --> 
+
+                    <hr>
+
+                    <div class="settings-links">
+                       <img src="images/setting.png" class="settings-icon" alt="c' è un problema nella visualizzazione dell' immagine">
+                       <a href="#">Impostazioni e Privacy <img src="images/arrow.png" width="10px" alt="c' è un problema nella visualizzazione dell' immagine"></a>
+                    </div><!--fine div setting-links-->
+
+                    <div class="settings-links">
+                       <img src="images/help.png" class="settings-icon" alt="c' è un problema nella visualizzazione dell' immagine">
+                       <a href="#">Aiuto e supporto <img src="images/arrow.png" width="10px" alt="c' è un problema nella visualizzazione dell' immagine"></a>
+                    </div><!--fine div setting-links-->
+
+                    <div class="settings-links">
+                       <img src="images/display.png" class="settings-icon" alt="c' è un problema nella visualizzazione dell' immagine">
+                       <a href="#">Display e accessibilità <img src="images/arrow.png" width="10px" alt="c' è un problema nella visualizzazione dell' immagine"></a>
+                    </div><!--fine div setting-links-->
+
+                    <div class="settings-links">
+                       <img src="images/logout.png" class="settings-icon" alt="c' è un problema nella visualizzazione dell' immagine">
+                       <a href="#">Esci <img src="images/arrow.png" width="10px" alt="c' è un problema nella visualizzazione dell' immagine"></a>
+                    </div><!--fine div setting-links-->
+
+               </div><!--fine div-settings-menu-inner -->
+           </div><!--fine div settings-menu -->
+       </nav>
+   </header>
+
+
+   <div class="profile-container">
+      <img src="images/cover.png" class="cover-img" alt="c' è un problema nella visualizzazione dell' immagine">
+
+      <div class="profile-details"> 
+        <div class="pd-left">
+           <div class="pd-row">
+              <img src="images/profile-pic.png" class="pd-image" alt="c' è un problema nella visualizzazione dell' immagine">
+
+              <div>
+                  <h3>Jack Nicholson</h3>
+                  <p>120 Amici</p>
+
+                  <img src="images/member-1.png" alt="c' è un problema nella visualizzazione dell' immagine">
+                  <img src="images/member-2.png" alt="c' è un problema nella visualizzazione dell' immagine">
+                  <img src="images/member-3.png" alt="c' è un problema nella visualizzazione dell' immagine">
+                  <img src="images/member-4.png" alt="c' è un problema nella visualizzazione dell' immagine">
+              </div>
+           </div><!--fine pd-row -->
+        </div><!--fine div pd-left -->
+
+
+        <div class="pd-right">
+           <button type="button">
+               <img src="images/add-friends.png" alt="c' è un problema nella visualizzazione dell' immagine"> Amici
+            </button>
+
+           <button type="button">
+              <img src="images/message.png" alt="c' è un problema nella visualizzazione dell' immagine"> Messaggi
+           </button>
+
+           <br>
+
+           <a href="#"><img src="images/more.png" alt="c' è un problema nella visualizzazione dell' immagine"></a>
+        </div><!--fine div pd-right-->
+      </div><!--fine div profile-details -->
+
+
+      <div class="profile-info">
+
+        <div class="info-col">
+           <div class="profile-intro">
+              <h3>BIO</h3>
+              <p class="intro-text">
+                Credi in te stesso e potrai fare cose incredibili.
+                <img src="images/feeling.png" alt="c' è un problema nella visualizzazione dell' immagine">
+              </p>
+
+              <hr>
+
+              <ul>
+                  <li><img src="images/profile-job.png" alt="c' è un problema nella visualizzazione dell' immagine"> Direttore presso Media World</li>
+                  <li><img src="images/profile-study.png" alt="c' è un problema nella visualizzazione dell' immagine"> Ha studiato all' Harward university</li>
+                  <li><img src="images/profile-home.png" alt="c' è un problema nella visualizzazione dell' immagine"> Vive a Napoli, Italia</li>
+                  <li><img src="images/profile-location.png" alt="c' è un problema nella visualizzazione dell' immagine"> Nato a Napoli, Italia</li>
+              </ul>
+           </div><!--profile-intro -->
+
+           <div class="profile-intro">
+              <div class="title-box">
+                <h3>Foto</h3>
+                <a href="#">Tutte le foto</a>
+              </div><!--fine div title-box-->
+
+               <div class="photo-box">
+                  <div><img src="images/photo1.png" alt="c' è un problema nella visualizzazione dell' immagine"></div>
+                  <div><img src="images/photo2.png" alt="c' è un problema nella visualizzazione dell' immagine"></div>
+                  <div><img src="images/photo3.png" alt="c' è un problema nella visualizzazione dell' immagine"></div>
+                  <div><img src="images/photo4.png" alt="c' è un problema nella visualizzazione dell' immagine"></div>
+                  <div><img src="images/photo5.png" alt="c' è un problema nella visualizzazione dell' immagine"></div>
+                  <div><img src="images/photo6.png" alt="c' è un problema nella visualizzazione dell' immagine"></div>
+                  
+               </div><!-- fine div photo-box -->
+           </div><!--fine div profile-intro -->
+
+
+           <div class="profile-intro">
+            <div class="title-box">
+              <h3>Amici</h3>
+              <a href="#">Tutti gli amici</a>
+            </div><!--fine div title-box-->
+              
+             <div class="friends-box">
+               <div><img src="images/member-1.png" alt="c' è un problema nella visualizzazione dell' immagine"> <p>Lisa S</p></div>
+               <div><img src="images/member-2.png" alt="c' è un problema nella visualizzazione dell' immagine"> <p>Bart S</p></div>
+               <div><img src="images/member-3.png" alt="c' è un problema nella visualizzazione dell' immagine"> <p>Marge S</p></div>
+               <div><img src="images/member-4.png" alt="c' è un problema nella visualizzazione dell' immagine"> <p>Homer S</p></div>
+               <div><img src="images/member-5.png" alt="c' è un problema nella visualizzazione dell' immagine"> <p>Clark K</p></div>
+               <div><img src="images/member-6.png" alt="c' è un problema nella visualizzazione dell' immagine"> <p>Margot R</p></div>
+               <div><img src="images/member-7.png" alt="c' è un problema nella visualizzazione dell' immagine"> <p>Harry P</p></div>
+               <div><img src="images/member-8.png" alt="c' è un problema nella visualizzazione dell' immagine"> <p>Sue S</p></div>
+               <div><img src="images/member-9.png" alt="c' è un problema nella visualizzazione dell' immagine"> <p>Bruce W</p></div>
+             </div><!-- fine div photo-box -->
+         </div><!--fine div profile-intro -->
+        </div><!--fine div info-col -->
+
+
+         <div class="post-col">
+            <div class="write-post-container">
+                <div class="user-profile">
+                   <img src="images/profile-pic.png" alt="c' è un problema nella visualizzazione dell' immagine">
+    
+                   <div>
+                      <p>Jack Nicholson</p>
+                      <small>Publico <i class="fas fa-caret-down"></i></small>
+                   </div>
+                </div><!--fine div user-profile --> 
+                
+    
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="A cosa stai pensando, Jack?"></textarea>
+    
+                    <div class="add-post-links">
+                       <a href="#"><img src="images/live-video.png" alt="c' è un problema nella visualizzazione dell' immagine"> Video in diretta</a>
+                       <a href="#"><img src="images/photo.png" alt="c' è un problema nella visualizzazione dell' immagine"> Foto/Video</a>
+                       <a href="#"><img src="images/feeling.png" alt="c' è un problema nella visualizzazione dell' immagine"> Attività/Feling</a>
+                    </div><!--fine div add-post-links -->
+    
+                </div><!--fine div post-input-container -->
+            </div><!--write-post-container-->
+
+
+            
+         <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="c' è un problema nella visualizzazione dell' immagine">
+
+                    <div>
+                       <p>Jack Nicholson</p>
+                       <span>24 Giugno 2022, 13:15</span>
+                    </div>
+
+                </div><!--fine div user-profile --> 
+
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div><!--fine div post-row -->
+
+
+            <p class="post-test">
+                <span>Lorem ipsum dolor sit</span>, amet consectetur adipisicing elit. 
+                Hic repellat, ipsum sequi voluptas dolorum accusantium nesciunt laborum unde, 
+                adipisci natus excepturi consequatur vitae iure quasi, 
+                velit veritatis! Dolorem, atque culpa!<br><a href="#">#post #latin #social</a>
+            </p>
+            <img src="images/feed-image-1.png" class="post-img" alt="c' è un problema nella visualizzazione dell' immagine">
+
+
+            <div class="post-row">
+                <div class="activity-icons">
+                   <div><img src="images/like-blue.png" alt="c' è un problema nella visualizzazione dell' immagine"> 120</div>
+                   <div><img src="images/comments.png" alt="c' è un problema nella visualizzazione dell' immagine"> 45</div>
+                   <div><img src="images/share.png" alt="c' è un problema nella visualizzazione dell' immagine"> 20</div>
+                </div><!-- fine div activity-icons -->
+
+
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png" alt="c' è un problema nella visualizzazione dell' immagine">
+                    <i class="fas fa-caret-down"></i>
+                </div><!--fine div post-profile-icon -->
+
+            </div><!--fine div post-row-->
+         </div><!--fine div post-container-->
+
+
+         <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="c' è un problema nella visualizzazione dell' immagine">
+
+                    <div>
+                       <p>Jack Nicholson</p>
+                       <span>30 Giugno 2022, 15:45</span>
+                    </div>
+
+                </div><!--fine div user-profile --> 
+
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div><!--fine div post-row -->
+
+
+            <p class="post-test">
+                <span>Lorem ipsum dolor sit</span>, amet consectetur adipisicing elit. 
+                Hic repellat, ipsum sequi voluptas dolorum accusantium nesciunt laborum unde, 
+                adipisci natus excepturi consequatur vitae iure quasi, 
+                velit veritatis! Dolorem, atque culpa!<br><a href="#">#post #travel #social</a>
+            </p>
+            <img src="images/feed-image-2.png" class="post-img" alt="c' è un problema nella visualizzazione dell' immagine">
+
+
+            <div class="post-row">
+                <div class="activity-icons">
+                   <div><img src="images/like.png" alt="c' è un problema nella visualizzazione dell' immagine"> 150</div>
+                   <div><img src="images/comments.png" alt="c' è un problema nella visualizzazione dell' immagine"> 75</div>
+                   <div><img src="images/share.png" alt="c' è un problema nella visualizzazione dell' immagine"> 30</div>
+                </div><!-- fine div activity-icons -->
+
+
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png" alt="c' è un problema nella visualizzazione dell' immagine">
+                    <i class="fas fa-caret-down"></i>
+                </div><!--fine div post-profile-icon -->
+
+            </div><!--fine div post-row-->
+         </div><!--fine div post-container-->
+
+
+         <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="c' è un problema nella visualizzazione dell' immagine">
+
+                    <div>
+                       <p>Jack Nicholson</p>
+                       <span>30 Luglio 2022, 17:45</span>
+                    </div>
+
+                </div><!--fine div user-profile --> 
+
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div><!--fine div post-row -->
+
+
+            <p class="post-test">
+                <span>Lorem ipsum dolor sit</span>, amet consectetur adipisicing elit. 
+                Hic repellat, ipsum sequi voluptas dolorum accusantium nesciunt laborum unde, 
+                adipisci natus excepturi consequatur vitae iure quasi, 
+                velit veritatis! Dolorem, atque culpa!<br><a href="#">#post #travel #social</a>
+            </p>
+            <img src="images/feed-image-3.png" class="post-img" alt="c' è un problema nella visualizzazione dell' immagine">
+
+
+            <div class="post-row">
+                <div class="activity-icons">
+                   <div><img src="images/like.png" alt="c' è un problema nella visualizzazione dell' immagine"> 110</div>
+                   <div><img src="images/comments.png" alt="c' è un problema nella visualizzazione dell' immagine"> 35</div>
+                   <div><img src="images/share.png" alt="c' è un problema nella visualizzazione dell' immagine"> 10</div>
+                </div><!-- fine div activity-icons -->
+
+
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png" alt="c' è un problema nella visualizzazione dell' immagine">
+                    <i class="fas fa-caret-down"></i>
+                </div><!--fine div post-profile-icon -->
+
+            </div><!--fine div post-row-->
+         </div><!--fine div post-container-->
+
+
+         <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="c' è un problema nella visualizzazione dell' immagine">
+
+                    <div>
+                       <p>Jack Nicholson</p>
+                       <span>15 Agosto 2022, 16:35</span>
+                    </div>
+
+                </div><!--fine div user-profile --> 
+
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div><!--fine div post-row -->
+
+
+            <p class="post-test">
+                <span>Lorem ipsum dolor sit</span>, amet consectetur adipisicing elit. 
+                Hic repellat, ipsum sequi voluptas dolorum accusantium nesciunt laborum unde, 
+                adipisci natus excepturi consequatur vitae iure quasi, 
+                velit veritatis! Dolorem, atque culpa!<br><a href="#">#post #travel #social</a>
+            </p>
+            <img src="images/feed-image-4.png" class="post-img" alt="c' è un problema nella visualizzazione dell' immagine">
+
+
+            <div class="post-row">
+                <div class="activity-icons">
+                   <div><img src="images/like.png" alt="c' è un problema nella visualizzazione dell' immagine"> 100</div>
+                   <div><img src="images/comments.png" alt="c' è un problema nella visualizzazione dell' immagine"> 85</div>
+                   <div><img src="images/share.png" alt="c' è un problema nella visualizzazione dell' immagine"> 50</div>
+                </div><!-- fine div activity-icons -->
+
+
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png" alt="c' è un problema nella visualizzazione dell' immagine">
+                    <i class="fas fa-caret-down"></i>
+                </div><!--fine div post-profile-icon -->
+
+            </div><!--fine div post-row-->
+         </div><!--fine div post-container-->
+
+
+         <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="c' è un problema nella visualizzazione dell' immagine">
+
+                    <div>
+                       <p>Jack Nicholson</p>
+                       <span>31 Agosto 2022, 11:25</span>
+                    </div>
+
+                </div><!--fine div user-profile --> 
+
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div><!--fine div post-row -->
+
+
+            <p class="post-test">
+                <span>Lorem ipsum dolor sit</span>, amet consectetur adipisicing elit. 
+                Hic repellat, ipsum sequi voluptas dolorum accusantium nesciunt laborum unde, 
+                adipisci natus excepturi consequatur vitae iure quasi, 
+                velit veritatis! Dolorem, atque culpa!<br><a href="#">#post #travel #social</a>
+            </p>
+            <img src="images/feed-image-5.png" class="post-img" alt="c' è un problema nella visualizzazione dell' immagine">
+
+
+            <div class="post-row">
+                <div class="activity-icons">
+                   <div><img src="images/like.png" alt="c' è un problema nella visualizzazione dell' immagine"> 160</div>
+                   <div><img src="images/comments.png" alt="c' è un problema nella visualizzazione dell' immagine"> 27</div>
+                   <div><img src="images/share.png" alt="c' è un problema nella visualizzazione dell' immagine"> 40</div>
+                </div><!-- fine div activity-icons -->
+
+
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png" alt="c' è un problema nella visualizzazione dell' immagine">
+                    <i class="fas fa-caret-down"></i>
+                </div><!--fine div post-profile-icon -->
+
+            </div><!--fine div post-row-->
+         </div><!--fine div post-container-->
+
+         </div><!--fine div post-col -->
+      </div><!--fine div profile-info -->
+   </div><!--fine div profile-container -->
+
+
+   <footer>
+       <small>&copy; SocialBook Corporation. Tutti i diritti sono riservati</small>
+   </footer>
+
+
+   <script src="JS/script.js"></script>
+
+</body>
+</html>

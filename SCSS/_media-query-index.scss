@@ -1,0 +1,412 @@
+@media only screen and (max-width: 850px)
+{
+    .right-sidebar
+    {
+        display: none;
+    }
+
+    .left-sidebar
+    {
+        display: none;
+    }
+
+    .search-box
+    {
+        display: none;
+    }
+
+    .logo
+    {
+        width: 110px;
+        margin-right: 20px;
+    }
+
+    nav 
+    {
+        flex-wrap: wrap;
+        width: 100%;
+    }  
+
+    .nav-left ul li img 
+    {
+        width: 20px;
+        margin: 0 8px;
+    }
+
+    .nav-user-icon
+    {
+        margin-left: 0;
+    }
+
+    .nav-user-icon img 
+    {
+        width: 30px;
+    }
+
+    .add-post-links
+    {
+        flex-wrap: wrap;
+
+        a 
+        {
+            margin-right: 5px;
+            font-size: 11px;
+
+            img 
+            {
+                width: 11px;
+                margin-right: 3px;
+            }
+        }
+    }
+
+    .post-input-container
+    {
+        padding-left: 0;
+    }
+
+    .main-content
+    {
+        flex-basis: 100%;
+    }
+
+    .story 
+    {
+        img 
+        {
+            width: 25px;
+            border-width: 3px;
+        }
+
+        p 
+        {
+            font-size: 12px;
+        }
+    }
+
+    .story.story1
+    {
+        img 
+        {
+           width: 15px;
+           bottom: 30px;
+        }
+    }
+
+    .settings-menu
+    {
+        width: 90%;
+        left: 5%;
+    }
+
+    .activity-icons div 
+    {
+        font-size: 15px;
+        margin-right: 10px;
+    } 
+
+    .activity-icons img 
+    {
+        width: 10px;
+        margin-right: 0;
+    }
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 375px) and (max-width: 479px)
+{
+
+    .add-post-links
+    {
+        a 
+        {
+            margin-right: 10px;
+            font-size: 12px;
+
+            img 
+            {
+                width: 12px;
+                margin-right: 5px;
+            }
+        }
+    }
+
+    .story 
+    {
+        img 
+        {
+            width: 30px;
+            border-width: 3px;
+        }
+
+        p 
+        {
+            font-size: 12px;
+        }
+    }
+
+    .story.story1
+    {
+        img 
+        {
+           width: 25px;
+           bottom: 30px;
+        }
+    }
+
+    .settings-menu
+    {
+        left: 10%;
+    }
+
+    .activity-icons div 
+    {
+        font-size: 15px;
+        margin-right: 10px;
+    } 
+
+    .activity-icons img 
+    {
+        width: 15px;
+        margin-right: 5px;
+    }
+}
+
+/*
+-----------------------------------------------------------------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 480px) and (max-width: 575px)
+{
+  
+    .add-post-links
+    {
+
+        a 
+        {
+            margin-right: 10px;
+            font-size: 15px;
+
+            img 
+            {
+                width: 15px;
+                margin-right: 5px;
+            }
+        }
+    }
+
+    .story 
+    {
+        img 
+        {
+            width: 35px;
+            border-width: 3px;
+        }
+
+        p 
+        {
+            font-size: 12px;
+        }
+    }
+
+    .story.story1
+    {
+        img 
+        {
+           width: 30px;
+           bottom: 30px;
+        }
+    }
+
+    .settings-menu
+    {
+        left: 30%;
+    }
+
+    .activity-icons div 
+    {
+        font-size: 16px;
+        margin-right: 10px;
+    } 
+
+    .activity-icons img 
+    {
+        width: 15px;
+        margin-right: 10px;
+    }
+}
+
+/*
+------------------------------------------------------------------------------------------------------------------------- 
+*/
+
+@media only screen and (min-width: 576px) and (max-width: 699px)
+{ 
+    .add-post-links
+    {
+        a 
+        {
+            margin-right: 10px;
+            font-size: 16px;
+
+            img 
+            {
+                width: 16px;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .story 
+    {
+        img 
+        {
+            width: 40px;
+            border-width: 3px;
+        }
+
+        p 
+        {
+            font-size: 12px;
+        }
+    }
+
+    .story.story1
+    {
+        img 
+        {
+           width: 35px;
+           bottom: 30px;
+        }
+    }
+
+    .settings-menu
+    {
+        left: 45%;
+    }
+
+    .activity-icons div 
+    {
+        font-size: 16px;
+        margin-right: 10px;
+    } 
+
+    .activity-icons img 
+    {
+        width: 15px;
+        margin-right: 10px;
+    }
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 960px) and (min-width: 700px) 
+{
+    .right-sidebar
+    {
+        display: none;
+    }
+
+    .left-sidebar
+    {
+        display: none;
+    }
+
+    .search-box
+    {
+        display: none;
+    }
+
+    .logo
+    {
+        width: 130px;
+        margin-right: 20px;
+    }
+
+    .nav-user-icon
+    {
+        margin-left: 0;
+    }
+
+    .nav-user-icon img 
+    {
+        width: 35px;
+    }
+    
+    .nav-left ul li img 
+    {
+        width: 25px;
+        margin: 0 10px;
+    }
+
+    .add-post-links
+    {
+        a 
+        {
+            margin-right: 10px;
+            font-size: 18px;
+
+            img 
+            {
+                width: 18px;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .post-input-container
+    {
+        padding-left: 0;
+    }
+
+    .main-content
+    {
+        flex-basis: 100%;
+    }
+
+    .story 
+    {
+        img 
+        {
+            width: 40px;
+            border-width: 3px;
+        }
+
+        p 
+        {
+            font-size: 16px;
+        }
+    }
+
+    .story.story1
+    {
+        img 
+        {
+           width: 40px;
+           bottom: 60px;
+        }
+    }
+
+    .settings-menu
+    {
+        left: 55%;
+    }
+
+    .activity-icons div 
+    {
+        font-size: 18px;
+        margin-right: 10px;
+    } 
+
+    .activity-icons img 
+    {
+        width: 18px;
+        margin-right: 10px;
+    }
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+
+

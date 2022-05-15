@@ -1,0 +1,200 @@
+header
+{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--nav-color);
+    padding: 5px 5%;
+}
+
+.logo
+{
+    width: 160px;
+    margin: 5px;
+}
+
+.nav-left
+{
+    display: flex;
+    align-items: center;
+
+    ul 
+    {
+        li 
+        {
+            list-style-type: none;
+            display: inline-block;
+
+            img 
+            {
+                width: 28px;
+                margin: 0px 15px;
+            }
+        }
+    }
+}
+
+.nav-right
+{
+    display: flex;
+    align-items: center;
+}
+
+.nav-user-icon
+{
+    margin-left: 30px;
+
+    img 
+    {
+        width: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}
+
+.search-box
+{
+    background-color: #efefef;
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+
+    img 
+    {
+        width: 18px;
+    }
+
+    input 
+    {
+        width: 100%;
+        background: transparent;
+        padding: 10px;
+        outline: none;
+        border: 0px;
+    }
+}
+
+.online
+{
+    position: relative;
+}
+
+.online::after
+{
+    content: '';
+    width: 7px;
+    height: 7px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-color: #41db51;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.settings-menu
+{
+    position: absolute;
+    top: 108%;
+    right: 5%;
+    width: 100%;
+    max-width: 300px;
+    background-color: var(--bg-color);
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    border-radius: 4px;
+    overflow: hidden;
+    max-height: 0px;
+    transition: max-height 0.3s;
+
+    hr 
+    {
+        border: 0px;
+        height: 1px;
+        background-color: #9a9a9a;
+        margin: 15px 0px;
+    }
+}
+
+.settings-menu-height
+{
+    max-height: 460px;
+}
+
+.settings-menu-inner
+{
+    padding: 20px;
+}
+
+.user-profile 
+{
+   a 
+   {
+       font-size: 13px;
+       color: #1876f2;
+       text-decoration: none;
+   }
+}
+
+.settings-links
+{
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+
+    .settings-icon
+    {
+        width: 38px;
+        margin-right: 10px;
+        border-radius: 50%;
+    }
+
+    a 
+    {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: space-between;
+        text-decoration: none;
+        color: #626262;
+    }
+}
+
+/*il contenitore ovale dove all' interno c' è  la pallina che se cliccato si muove verso destra e cambia colore di sfondo*/
+#dark-btn
+{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #ccc;
+    width: 45px;
+    border-radius: 15px;
+    padding: 2px 3px;
+    cursor: pointer;
+    display: flex;
+    transition: padding-left 0.5s, background-color 0.5s;
+
+    /*questi stili creano la pallina che quando viene cliccata cambia il colore di sfondo*/
+    span 
+    {
+        width: 18px;
+        height: 18px;
+        background-color: #fff;
+        border-radius: 50%;
+        display: inline-block;
+    }
+}
+
+#dark-btn.dark-btn-on
+{
+    padding-left: 23px;
+    background-color: #0a0a0a;
+}
